@@ -1,0 +1,80 @@
+3rd push to see if name changed in edit history
+LINUX COMMANDS
+
+cd = change directory
+pwd = print working directory
+touch = create file
+ls = list contents of directory
+mkdir = make directory
+rm = removes files or directories 
+cat = displays the contents of a file on the terminal
+clear = clear terminal
+-------------------------------------------------
+
+VIM COMANDS
+
+insert mode = I
+escape mode = escp
+command mode = :
+undo = U
+redo = cntrl + R
+to quit without saving = :q!
+k = up
+j = down
+l = left
+h = right
+w = move by word
+e = forward to the end of word
+b = move by word
+:w = save
+:wq = write & quit
+Shift+ A = insert at end
+0 = go to begining of line
+$ = go to the end of line
+dd = delete line while in normal mode
+x = backspace while in normal mode
+G = end of file
+gg = top of file
+o = instert mode below current line
+O = insert mode above current line
+/ = search for word
+/ + n = search for next
+
+":set number" = line numbers
+":set nonumber" = no numbers
+":tabnew" = new tab
+"tabn" = tab next
+"tabp" = tab previous
+":e + " " + "tab"" = edit file in new tab and view files avaliable
+
+------------------------------------------------
+To open file type "vim + filename" , you must be in the same
+ directoy that the file is in to open the file with vim
+you can also type out "vim + file path"
+
+command mode uses ":"
+normal mode is before command mode where you move the cursor
+insert mode when you use "i" to type and insert text 
+
+Linux commands can be used in vim, while in command mode
+,use example  ":! ls"
+
+Buffers are like tabs in a browser where you can switch to 
+other files using ":bp" and ":bn" ":bd" delete
+
+press "v" to enter into visual mode, you can then highlight
+text and press "y" for yank and "p" for put, like copy and 
+paste
+
+to find and replace use the command 
+":%s/"word to replace"/"replacement word"/g
+
+After using "dd" to delete line I can paste using "p"
+
+I need to edit the vim config file for default changes
+
+in confige file map "esc" to "tab"
+
+":terminal" splits the windows, one window is vim, the 
+other is the terminal. "ctrl + ww"= switching window
+type quit to exit the vim terminal
