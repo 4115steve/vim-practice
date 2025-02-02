@@ -39,6 +39,8 @@ o = instert mode below current line
 O = insert mode above current line
 / = search for word
 / + n = search for next
+cntrl + u =half page up
+cntrl + d = half page down
 
 ":set number" = line numbers
 ":set nonumber" = no numbers
